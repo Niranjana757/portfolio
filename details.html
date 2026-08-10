@@ -49,7 +49,7 @@
         <p><strong>Programming Languages:</strong> Java, SQL, Python</p>
         <p><strong>Database Technologies:</strong> MySQL, SQLite, PHP</p>
         <p><strong>Web Technologies:</strong> HTML, CSS, JavaScript, AJAX</p>
-        <p><strong>Concepts:</strong> Data Structures, Collections</p>
+        <p><strong>Concepts:</strong> Data Structures, Collection</p>
         <p><strong>Tools:</strong> GitHub, VS Code, XAMPP</p>
     </div>
 
@@ -169,61 +169,82 @@
         </ul>
     </div>
 
-    <!-- Contact -->
-    <h1 class="section-title">Contact</h1>
+<!-- Contact -->
+<h1 class="section-title">Contact</h1>
 
-    <div class="contact-container">
+<div class="contact-container">
 
-        <!-- Left Side -->
-        <div class="card contact-info">
+    <!-- Left Side -->
+    <div class="card contact-info">
 
-            <h3>Get in Touch</h3>
+        <h3>Get in Touch</h3>
 
-            <p>📧 <strong>Email:</strong> nirakrishna06@gmail.com</p>
+        <p>📧 <strong>Email:</strong> nirakrishna06@gmail.com</p>
 
-            <p>📱 <strong>Phone:</strong> +91 9751956502</p>
+        <p>📱 <strong>Phone:</strong> +91 9751956502</p>
 
-            <p>📍 <strong>Location:</strong> Pudukkottai, Tamil Nadu</p>
+        <p>📍 <strong>Location:</strong> Pudukkottai, Tamil Nadu</p>
 
-            <p>💼 <strong>LinkedIn:</strong>
-                <a href="https://www.linkedin.com/in/niranjana-k-558a1b325/"
-                   target="_blank">
-                    View Profile
-                </a>
-            </p>
-
-            <p>💻 <strong>GitHub:</strong>
-                <a href="https://github.com/Niranjana757"
-                   target="_blank">
-                    View GitHub
-                </a>
-            </p>
-
-        </div>
-
-        <!-- Right Side Message Button -->
-        <div class="card contact-form">
-
-            <h3>Send Me a Message</h3>
-
-            <p>
-                Click the button below to send a message directly to my Gmail.
-            </p>
-
-            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nirakrishna06@gmail.com&su=Portfolio%20Contact%20Message"
-               target="_blank"
-               class="btn primary-btn">
-                Send Message
+        <p>💼 <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/niranjana-k-558a1b325/"
+               target="_blank">
+                View Profile
             </a>
+        </p>
 
-        </div>
+        <p>💻 <strong>GitHub:</strong>
+            <a href="https://github.com/Niranjana757"
+               target="_blank">
+                View GitHub
+            </a>
+        </p>
 
     </div>
 
-    <footer class="footer">
-        <p>© 2026 Niranjana K | Portfolio</p>
-    </footer>
+    <!-- Right Side Form -->
+    <div class="card contact-form">
 
+        <h3>Send Me a Message</h3>
+
+        <form action="https://formsubmit.co/nirakrishna06@gmail.com"
+              method="POST">
+
+            <!-- Disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Redirect back after sending -->
+            <input type="hidden"
+                   name="_next"
+                   value="https://niranjana757.github.io/portfolio/details.html">
+
+            <input type="text"
+                   name="name"
+                   placeholder="Your Name"
+                   required>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Your Email"
+                   required>
+
+            <textarea name="message"
+                      rows="6"
+                      placeholder="Type your message here..."
+                      required></textarea>
+
+            <button type="submit" class="btn primary-btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <p> Niranjana K | Portfolio</p>
+</footer>
 </div>
 
 </body>
